@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="shortcut icon" type="img/jpg" href="img/favicon.jpg"/>
+            <link rel="stylesheet" href="./style/account.css" />
+            <title>Ideakart</title>
+        </head>
+        <body>
+            <div id="nav" >
+                <div id="kart"><a href="index.html">IDEAKART</a></div>    
+                <div id="st1">
+                    <form action="">
+                        <input type="text" placeholder="Search" id="st2"/>
+                        <button type="submit" id="st3">Search</button>
+                    </form> 
+                </div>
+                <div id="st4">
+                    <p><a href="about.html" class="st5">About</a></p>
+                    <p><a href="contact.html" class="st5">Contact</a></p>
+                    <select id ="select"  name="links" size="1" onchange="window.location.href=this.value;">
+                        <option class="option" value="Sign in"> Sign In</option>
+                        <option class="option" value="dashboard.html"> <a href="dashboard.html">Dashboard</a></option>
+                        <option class="option" value="account.html"> <a href="account.html">Account Info</a></option>
+                        <option class="option" value="notification.html"> <a href="notification.html">Notifications</a></option>
+                        <option class="option" value="index.html"> <a href="index.html">Sign Out</a></option>
+                    </select>
+                </div>
+            </div>
+            <p id="st6">Account Info</p>
+            <div id="container">
+                <form  id="form">
+                    <h5>Account Number</h5>
+                    <input id="acc" class="input" type="accountnumber"  placeholder=""/>
+                    <h5>IFSC CODE</h5>
+                    <input id="code" class="input" type="text" placeholder=""/>
+                    <h5>Bank Name</h5>
+                    <input id="name" class="input" type="name" placeholder=""/>
+                    <h5>UPI ID</h5>
+                    <input id="upi" class="input" type="text" placeholder=""/>
+                    <h5>Address 1</h5>
+                    <input id="add" class="input" type="address" placeholder=""/>
+                    <h5>Address 2</h5>
+                    <input id="add2" class="input" type="address" placeholder="" required="required"/>
+                    <h5>City</h5>
+                    <input id="city" class="input" type="text" placeholder="" required="required"/>
+                    <h5>State</h5>
+                    <input id="state" class="input" type="text" placeholder="" required="required"/>
+                    <h5>Pin Code</h5>
+                    <input id="pin" class="input" type="number" placeholder="" required="required"/>
+                    <p></p>
+                    <!-- <button>Update User account</button> -->
+                    <input class="button"type="submit"/>
+                </form>
+            </div>
+            <div id ="footer">
+                <div style>
+                <ul>Get To Know Us</ul>
+                <li>
+                    <a href="about.html" class="st7"><span class="span">About</span></a>
+                </li>
+                <li>
+                    <a href="contact.html" class="st7"><span class="span">Contact</span></a>
+                </li>
+                <li>
+                    <a href="https://www.ideakart.com/search" class="st7"><span class="span">Search</span></a>
+                </li>
+                <li>
+                    <a href="https://www.ideakart.com/privacy" class="st7"><span class="span">Privacy Policy</span></a>
+                </li>
+                <li>
+                    <a href="https://www.ideakart.com/refund-policy" class="st7"><span class="span">Refund Policy</span></a>
+                </li>
+                <li>
+                    <a href="https://www.ideakart.com/make-money" class="st7"><span class="span">Earn Money Online</span></a>
+                </li>
+                <li>
+                    <a href="https://www.quickbuyer.in/" class="st7"><span class="span">Quick Buyer</span></a>
+                </li>
+                </div>
+            </div>
+        </body>
+   </html>
+    <script src="./javascript/account.js"></script>
+
