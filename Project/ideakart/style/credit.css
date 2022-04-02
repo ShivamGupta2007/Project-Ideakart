@@ -139,3 +139,17 @@ li{
 span{
    color:#337ab7;
 }
+@media only screen and (min-width: 421px) and (max-width: 765px){
+    #container{
+        width:80%;
+      grid-template-columns: repeat(2,1fr)
+  
+    }
+  }
+
+  @media only screen and (min-width:80px) and (max-width:420px){
+    #container{
+        width:80%;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
